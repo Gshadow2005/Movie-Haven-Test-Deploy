@@ -3,27 +3,32 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
+import duneMovie from "../../assets/dune-movie-2021.960x540.mp4";
+import batmanMovie from "../../assets/batman-intimidating-legacy.960x540.mp4";
+import oppenheimerMovie from "../../assets/mylivewallpapers.com-Oppenheimer.mp4";
+import captainAmericaMovie from "../../assets/shield-of-freedom-captain-america.960x540.mp4";
+
 
 const slides = [
   { 
     title: "Unlimited movies, TV shows, and more.", 
     subtitle: "Watch anywhere. Cancel anytime.",
-    video: "/dune-movie-2021.960x540.mp4"
+    video: duneMovie
   },
   { 
     title: "New Blockbusters Every Week!", 
     subtitle: "Stream the latest movies in high quality.",
-    video: "/batman-intimidating-legacy.960x540.mp4"
+    video: batmanMovie
   },
   { 
     title: "Your Favorite Shows, Anytime!", 
     subtitle: "Binge-watch entire seasons with no ads.",
-    video: "/mylivewallpapers.com-Oppenheimer.mp4"
+    video: oppenheimerMovie
   },
   { 
     title: "Coming Soon Movies!", 
     subtitle: "Your most awaited movies is coming.",
-    video: "/shield-of-freedom-captain-america.960x540.mp4"
+    video: captainAmericaMovie
   },
 ];
 

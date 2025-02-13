@@ -1,1 +1,8 @@
 DEPLYOMENT
+npm run deploy
+
+  "name": "movie-app",
+  "homepage": "https://Gshadow2005.github.io/Movie-App-Frontend-Deploy/",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",

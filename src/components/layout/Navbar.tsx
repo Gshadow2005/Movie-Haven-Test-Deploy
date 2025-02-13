@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaHome, FaSearch, FaBars, FaTimes } from 'react-icons/fa';
+import logo from "/src/assets/Logo.png";
 
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,7 +12,7 @@ const Navbar: React.FC = () => {
       
       <div className="flex items-center space-x-2">
         <Link to="/">
-          <img src="/Logo.png" alt="MovieHaven Logo" className="h-8 cursor-pointer" />
+          <img src= {logo} alt="MovieHaven Logo" className="h-8 cursor-pointer" />
         </Link>
       </div>
 

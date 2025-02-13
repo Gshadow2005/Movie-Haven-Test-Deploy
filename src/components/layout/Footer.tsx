@@ -1,3 +1,4 @@
+import logo from "/src/assets/Logo.png";
 
 const Footer = () => {
   return (
@@ -78,7 +79,7 @@ const Footer = () => {
 
           <div className="flex justify-center md:justify-end ">
             <img 
-              src="/Logo.png" 
+              src= {logo}
               alt="Haven Movie Logo" 
               className=" h-14 w-auto object-contain"
             />
