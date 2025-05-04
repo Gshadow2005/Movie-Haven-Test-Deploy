@@ -1,6 +1,6 @@
 # Movie Haven
 
-[Live Project](https://movie-haven-rho.vercel.app/)
+[Testing](https://gshadow2005.github.io/Movie-App-Frontend-Deploy/))
 
 Movie Haven is a web application built with **React, TypeScript, and Vite** for the frontend, and a backend deployed using **AWS and Vercel**.
 
